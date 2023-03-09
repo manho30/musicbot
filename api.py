@@ -10,7 +10,7 @@
 
 from flask import Flask, request, jsonify
 
-from bot.util import bot
+from bot import util
 
 app = Flask(__name__)
 
@@ -18,7 +18,7 @@ app = Flask(__name__)
 def index():
     return 'Hello World!'
 
-bot.polling()
+util.bot.polling()
 print('Bot started')
 app.run(host='0.0.0.0', port=5000)
 # cheeky start the bot
