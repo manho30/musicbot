@@ -7,14 +7,15 @@
 @Date        : 9/3/2023 17:01
 """
 
-from PIL import Image
+from PIL import Image, ImageFilter
 
-def crop(image_path: str) -> None:
+def crop(image_path: str, img_return=False) -> None:
     """
     Crops an image to a square.
 
     Args:
         image_path str: The path of the image.
+        img_return bool: Whether to return the image.
     """
     with Image.open(image_path) as img:
         width, height = img.size

@@ -25,7 +25,7 @@ def treeify(data, index=1)-> str:
     Raises:
         ValueError: If the music data is not found.
     """
-    tree = f"I found the following music for you:\n"
+    tree = f"🎵 I found the following music for you:\n"
     for i, song in enumerate(data, 1):
         if i == len(data):
             tree += f"└ {(index-1) * 10 + i} {song['title']} ({song['duration']})\n"

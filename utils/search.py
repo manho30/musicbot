@@ -12,14 +12,14 @@ from pprint import pprint
 from ytmusicapi import YTMusic
 
 
-def search(name: str, total: int, offset: int) -> List[Dict[str, str]]:
+def search(name: str, total: int = 10, offset: int = 1) -> List[Dict]:
     """
     Search for music on YouTube Music using the ytmusicapi library.
 
     Args:
         name (str): The name of the song or artist to search for. Can be a partial name or ID.
-        total (int): The total number of results to return.
-        offset (int): The index of the first result to return.
+        total (int): The total number of results to return. Defaults to 10.
+        offset (int): The index of the first result to return. Defaults to 1.
 
     Returns:
         list: A list of dictionaries containing information about the search results.
