@@ -82,7 +82,7 @@ pip install -r requirements.txt
 To start the API Endpoint, run the following command:
 
 ```
-python api/util.py
+python api/index.py
 ```
 
 The DouYin API Endpoint will now be running on `http://localhost:5000`.
