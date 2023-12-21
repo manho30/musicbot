@@ -1,4 +1,4 @@
-# DouYin API Endpoint Documentation
+# Self-Deploy YouTube Music API
 
 🎵 This is a YouTube Music API endpoint that allows you to search for songs, get song information, and get song thumbnails.
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
